@@ -36,11 +36,11 @@ This application analyzes your personality traits based on the Big Five theory u
 ## 参考情報 / Reference Information
 
 スコアの計算方法は以下の式に基づいています / Scores are calculated using the following formulas:
-- 外向性/Extraversion = (Q1 + (8 - Q6)) / 2
-- 協調性/Agreeableness = ((8 - Q2) + Q7) / 2
-- 誠実性/Conscientiousness = (Q3 + (8 - Q8)) / 2
-- 神経症傾向/Neuroticism = (Q4 + (8 - Q9)) / 2
-- 開放性/Openness = (Q5 + (8 - Q10)) / 2
+- 外向性/Extraversion = (Q1 + (8 - Q6))
+- 協調性/Agreeableness = ((8 - Q2) + Q7)
+- 誠実性/Conscientiousness = (Q3 + (8 - Q8))
+- 神経症傾向/Neuroticism = (Q4 + (8 - Q9))
+- 開放性/Openness = (Q5 + (8 - Q10))
 
 ## 技術スタック / Technology Stack
 
@@ -50,6 +50,6 @@ This application analyzes your personality traits based on the Big Five theory u
 - Pandas
 - NumPy
 
-## 謝辞
+## 参考文献
 - A very brief measure of the Big-Five personality domains: https://doi.org/10.1016/S0092-6566(03)00046-1 (Accessed: 19th Jan 2025)
 - 日本語版Ten Item Personality Inventory（TIPI-J）作成の試み: https://www.jstage.jst.go.jp/article/personality/21/1/21_40/_article/-char/ja/ (Accessed: 19th Jan 2025)
