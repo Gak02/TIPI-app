@@ -189,11 +189,11 @@ population_stats = {
 def calculate_big5_scores(answers):
     """Big5スコアを計算する関数"""
     scores = {
-        "外向性": (answers[0] + (8 - answers[5])) / 2,
-        "協調性": ((8 - answers[1]) + answers[6]) / 2,
-        "誠実性": (answers[2] + (8 - answers[7])) / 2,
-        "神経症傾向": (answers[3] + (8 - answers[8])) / 2,
-        "開放性": (answers[4] + (8 - answers[9])) / 2
+        "外向性": (answers[0] + (8 - answers[5])),
+        "協調性": ((8 - answers[1]) + answers[6]),
+        "誠実性": (answers[2] + (8 - answers[7])),
+        "神経症傾向": (answers[3] + (8 - answers[8])),
+        "開放性": (answers[4] + (8 - answers[9]))
     }
     return scores
 
