@@ -3,6 +3,12 @@ import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 
+st.set_page_config(
+    page_title="性格特性診断テスト",
+    page_icon="📃",
+    layout="wide"
+)
+
 # アプリケーションの状態管理のためのセッション状態の初期化
 if 'page' not in st.session_state:
     st.session_state.page = 'welcome'  # welcome, test, results
